@@ -12,9 +12,90 @@
 .container {
     padding: 10px;
     display: flex;
+    width: 300px;
     border: 1px solid black;
+    flex-direction: column;
 }
 
 .header {
+	width: 100%;
     border-bottom: 10px solid black;
+}
+
+.bigger {
+
+	font-size: 0.8em;
+}
+
+.smaller {
+
+	font-size: 0.7em;
+	font-weight: bold;
+}
+
+.item1 {
+	display:  flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.item2 {
+	display:  flex;
+	width: 100%;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.firstcol {
+	display: flex;
+	width: 50%;
+	justify-content: flex-start;
+
+}
+
+.secthird {
+	display: flex;
+	width: 50%;
+	justify-content: flex-end;
+
+}
+
+.seccol{
+	display: flex;
+	width: 50px;
+	justify-content: flex-end;
+}
+
+.thinborder {
+	border-top: 1px solid black;
+}
+
+.greyborder {
+	border-top: 2px solid lightgrey;
+}
+.thickborder {
+	border-top: 4px solid black;
+}
+.marginleft {
+	margin-left: 15px;
+}
+.divfour1 {
+	display: flex;
+	width: 37%;
+	justify-content: flex-start;
+}
+.divfour2 {
+	display: flex;
+	width: 21%;
+	justify-content: flex-start;
+}
+.lastitem{
+	display: flex;
+	justify-content: center;
+}
+
+.smallerbox{
+	display: flex;
+	width: 70%;
+	justify-content: space-between;
 }
