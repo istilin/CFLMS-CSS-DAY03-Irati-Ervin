@@ -1,14 +1,18 @@
 body {
     margin: 0;
     padding: 0;
-    height: 1000px;
-    background-color: bisque;
+    height: 100%;
+    background: linear-gradient(249deg, rgba(255,255,255,1) 13%, rgba(19,156,138,1) 84%);    
+    background-repeat: no-repeat;
+    font-family: 'Raleway', sans-serif;
 }
 
 .header {
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.5em;
+    font-size: 1.8em;
+    border: 6px ridge white;
+    color: white;
+    margin: 10px 30px;
 }
 .container {
     display: flex;
@@ -20,14 +24,13 @@ body {
 
 .container > .item {
     display: flex;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     flex-flow: column;
     align-items: center;
     filter: grayscale(100%);
     transition: transform .5s;
     padding: 30px;
-
 }
 
 .item:hover {
@@ -38,21 +41,27 @@ body {
 a {
     display: flex;
     background-color: lime;
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
     justify-content: center;
+    border-radius: 8px;
+    box-shadow: 10px 10px 8px #31332f;
    
 }
 
 .container > div > p {
     display: flex;
-    background: linear-gradient(52deg, rgba(40,241,116,1) 12%, rgba(189,13,13,1) 68%); 
-    width: 250px;
+    /* background: linear-gradient(52deg, rgba(40,241,116,1) 12%, rgba(189,13,13,1) 68%);  */
+    background-color: #92bb72;
+    width: 350px;
     height: 50px;
     justify-content: center;
     align-items: center;
     color: white;
     font-size: 1.2em;
+    border-radius: 8px;
+    border: 1px solid grey;
+    box-shadow: 10px 10px 8px #31332f;
 } 
 
 .item1 {
